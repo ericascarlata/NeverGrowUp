@@ -1,0 +1,318 @@
+header {
+	background-image: url("images/header.jpg");
+	background-position: center; /* Center the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+#testata {
+	background-color: white !important;
+	height: 70px;
+}
+#logo {
+	height: 70px;
+	width: 70px;
+	float: left !important;
+}
+h1 {
+	text-align: center;
+	margin: 70px auto;
+	padding-top: 140px;
+	padding-bottom: 100px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3em !important;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	word-spacing: 0.3em;
+	letter-spacing: 5px;
+}
+nav {
+	text-align: center;
+}
+.nav-item {
+  display: inline-block;
+  background-color: #92B9DD;
+  color: #E9279F;
+  padding: 16px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+ }
+.nav-item a {
+  text-decoration: none !important;
+  color: #E9279F !important;
+  font-family: 'Gentium Plus', serif;
+}
+#vocemenu {
+  background-color: #92B9DD;
+  color: #E9279F;
+  padding: 16px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Gentium Plus', serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #92B9DD;
+  min-width: 115px;
+  max-width: 132px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+#dropdown-content a {
+  color: #E9279F !important;
+  padding: 12px;
+  text-decoration: none !important;
+  display: block;
+  text-align: left;
+  font-family: 'Gentium Plus', serif;
+}
+#dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover #dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.icons {
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  }
+.icons a {
+  display: inline-block;
+  text-align: center;
+}
+.iconheader {
+  font-size: 2em;
+  color: #C8ACD7;
+}
+#testata ul {
+  float: right;
+  margin-top: 1em !important;
+}
+#main {
+  font-family: 'Gentium Plus', serif;
+  background-color: #FFBBE5;
+  padding: 5% 20%;
+  font-size: 25px;
+}
+#footer {
+  margin: 0;
+  background-color: #92B9DD;
+  padding: 40px;
+}
+#footer ul {
+  list-style-type: none;
+  padding-left: 0px !important;
+  text-align: center;
+  margin: 0;
+}
+.iconfooter {
+  font-size: 2em;
+  text-align: center;
+  color: #E9279F;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 100vh;
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #FFBBE5;
+  max-width: 100% !important;
+}
+.row {
+  width: 100%;
+}
+.timeline {
+  height: auto;
+  width: 100% !important;
+  margin: 3em 10%;
+}
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px 20px 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'Gentium Plus', serif;
+}
+.timeline-content h3 {
+  font-size: 23px;
+  margin-bottom: 5px;
+  font-family: 'Gentium Plus', serif;
+}
+.songlink {
+  font-size: 16px;
+  font-family: 'Gentium Plus', serif;
+  color: black !important;
+}
+.songlink:hover {
+  color: #E9279F !important;
+}
+@media only screen and (min-width: 768px){
+.timeline::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 10px;
+  left: 50%;
+  background-color: #92B9DD;
+} 
+.timeline ul li {
+  width: 40%;
+  margin-bottom: 50px;
+  position: relative;
+}
+.timeline ul li:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-10%);
+}
+.timeline ul li:nth-child(even) {
+  float: right;
+  clear: left;
+  transform: translateX(-35%);
+}
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: #92B9DD;
+  border-radius: 50%;
+  top: 0;
+}
+.timeline ul li:nth-child(odd)::after {
+  transform: translate(70%);
+  right: -10%;
+}
+.timeline ul li:nth-child(even)::after {
+  transform: translate(-80%);
+  left: -10%;
+}
+.timeline ul li:hover:after {
+  background-color: #E9279F;
+}
+}
+h2 {
+  font-family: 'Gentium Plus', serif !important;
+  font-size: 2.5em !important;
+  padding-left: 20px;
+}
+.col-md-5 {
+  margin-top: 50px;
+}
+.col-md-5 ul {
+  list-style-type: none !important;
+  padding-left: 20px;
+}
+.curiosita {
+  font-family: 'Gentium Plus', serif;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px){
+.col-md-5 #border {
+  border-left: 1px solid #E9279F;
+}
+}
+h4 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em !important;
+  text-align: center;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  padding: 30px 0;
+  letter-spacing: 4px;
+}
+.contact {
+  background-color: #92B9DD;
+  margin: 15px 0;
+  padding: 10px;
+  font-family: 'Gentium Plus', serif;
+  font-size: 1em;
+  border-radius: 15px;
+}
+.iconcine {
+  padding: 0 15px;
+}
+#playlist {
+  background-color: #92B9DD;
+  font-family: 'Gentium Plus', serif;
+  padding: 5px 10px;
+  margin: 30px 0;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#playlist p {
+  margin-bottom: 0 !important;
+  padding: 10px 0;
+}
+#playlist p a {
+  color: black !important;
+}
+#playlist p a:hover {
+  color: #E9279F !important;
+}
+#documentation {
+  font-family: 'Gentium Plus', serif;
+  font-size: 1.3em;
+  text-align: center;
+  background-color: #FFBBE5;
+  padding: 5% 20%
+}
+#documentation h2 {
+  font-size: 2em !important;
+  letter-spacing: 1px;
+  padding: 20px 0;
+  margin-bottom: 0 !important;
+}
+#documentation h1 {
+  font-size: 2.5em !important;
+  letter-spacing: 3px;
+  font-family: 'Gentium Plus', serif !important;
+  padding: 25px 0;
+  text-shadow: none;
+  word-spacing: 7px;
+  margin-bottom: 0 !important;
+}
+#documentation h3 {
+  font-size: 1.6em;
+  padding: 20px 0;
+  margin-bottom: 0 !important;
+}
+#documentation p a {
+  font-size: 1em !important;
+}
+#struttura {
+  max-width: 100%;
+}
+h5 {
+  font-family: 'Gentium Plus', serif;
+  font-size: 1.3em !important;
+  padding-top: 22px;
+  padding-bottom: 15px;
+}
+.layout {
+  max-width: 80%
+}

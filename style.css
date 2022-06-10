@@ -317,5 +317,6 @@ h5 {
   max-width: 80%
 }
 .container-fluid {
-  /*full the entire width and height of the viewport*/
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }

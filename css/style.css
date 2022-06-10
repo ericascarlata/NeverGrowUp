@@ -316,3 +316,7 @@ h5 {
 .layout {
   max-width: 80%
 }
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

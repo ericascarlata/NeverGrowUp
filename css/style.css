@@ -326,3 +326,6 @@ h5 {
 .iconfooter:hover {
   color: black;
 }
+.valutazione {
+  max-width: 100%;
+}

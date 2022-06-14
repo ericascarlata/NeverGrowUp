@@ -320,3 +320,9 @@ h5 {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+.iconheader:hover {
+  color: #92B9DD;
+}
+.iconfooter:hover {
+  color: #C8ACD7;
+}

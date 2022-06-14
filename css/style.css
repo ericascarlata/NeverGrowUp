@@ -208,7 +208,7 @@ nav {
   right: -10%;
 }
 .timeline ul li:nth-child(even)::after {
-  transform: translate(-80%);
+  transform: translate(-70%);
   left: -10%;
 }
 .timeline ul li:hover:after {
